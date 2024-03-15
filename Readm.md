@@ -12,7 +12,7 @@
 </body>
 </html>
 
-
+CSS abaixo:
 body {
     background-color: lightblue;
 }
