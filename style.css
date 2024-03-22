@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Estilo CSS</title>
+    <title>Exemplo de Estilo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p class="estilizado">Este parágrafo tem estilo CSS aplicado.</p>
-    <p>Neste parágrafo não há estilo CSS aplicado.</p>
+    <h1 id="h1">Tag h na cor laranja</h1>
+    <p id="p1">Tag p na cor azul</p>
+    <p id="p2">Tag p na cor verde</p>
 </body>
 </html>
 
-CSS ABAIXO:
+CSS ABAIXO
 
-.estilizado {
-    color: blue; 
-    font-size: 18px; 
+#h1{
+color: orange;    
+}
+
+#p1{
+
+color: blue;
+}
+
+#p2{
+color: greenyellow;    
 }
