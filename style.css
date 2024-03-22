@@ -1,40 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Exemplo de Estilo CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Título Principal</h1>
-    <p>Este é um parágrafo de exemplo.</p>
+    <p class="estilizado">Este parágrafo tem estilo CSS aplicado.</p>
+    <p>Neste parágrafo não há estilo CSS aplicado.</p>
 </body>
 </html>
 
+CSS ABAIXO:
 
-
-
-
-
-Css abaixo:
-
-
-
-
-
-
-
-body {
-    background-color: lightblue;
+.estilizado {
+    color: blue; 
+    font-size: 18px; 
 }
-
-h1 {
-    color: green; 
-}
-
-p {
-    font-family: Arial, sans-serif; 
-}
-
-
